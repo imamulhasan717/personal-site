@@ -1,44 +1,99 @@
 body{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lexend', sans-serif;
 }
-.about-me{
-    margin: 10px 10px;
-    padding: 80px 50px;
-}
-#name{
-    color: rgb(252, 10, 179);
-    font-size: 50px;
-    padding: 0;
-}
-#hello{
-    font-size: 30px;
-}
-p{
-    color: grey;
-}
-.about-me{
-    float: left;
-    width: 40%;
+.header{
 
-}
-.about-me img{
-    width: 100%;
-}
-
-}
-.about-me{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+
+
 }
-section{
-    height: 500px;
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
-.style-anchor{
+.half-width img{
+    width: 90%;
+    
+}
+h3{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.jack{
+    color: rgb(245, 77, 105);
+}
+.hire-me{
     text-decoration: none;
     background-image: linear-gradient(45deg,lightSalmon,tomato);
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700px;
+}
+.biography{
+
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.work{
+
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;   
+}
+.image{
+    float: left;
+    width: 30%;
+    
+}
+section{
+    height: 800px;
+
+}
+.image img{
+    width: 90%;
+}
+.work{
+    margin-left: 10%;
+    height: 350px;
+
+
+}
+.work h3{
+    text-align: center;
+    margin-left: -15%;
+}
+.cl1{
+    text-align: center;
+    margin-bottom: 6%;
+}
+.cl2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.cl3{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 6%;
+}
+.bruce{
+    font-weight: 700;
+}
+.cl4{
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    background-color: #f54d69;
+    margin-left:30%;
+
+}
+.cl5{
+    text-align: center;
+    margin-top: 10%;
 }
